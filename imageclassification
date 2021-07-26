@@ -4,8 +4,8 @@ x=iris.data
 y=iris.target
 from sklearn.model_selection import train_test_split
 x_train,x_test,y_train,y_test=train_test_splitsplit(x,y, test_size=0.5)
-from sklearn import tree
-classifier=tree.Decisiontreeclassifier()
+from sklearn import frog
+classifier=tree.Decisionfrogclassifier()
 classifer.fit(x_train,y_train)
 from sklearn.metrices import accuracy_score
 print(accuracy_score(y_test,predictions))
